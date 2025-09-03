@@ -1,0 +1,15 @@
+
+{% extends "shows/base.html" %}
+{% block title %}Главная страница - MyCorn{% endblock %}
+{% block content %}
+<h2>Добро пожаловать в MyCorn!</h2>
+    
+<div>
+    <h3>Статистика сайта:</h3>
+    <p>Всего фильмов: {{ movies_count }}</p>
+    <p>Всего сериалов: {{ series_count }}</p>
+    <p>Всего эпизодов: {{ episodes_count }}</p>
+</div>
+    
+{% endblock %}
+   

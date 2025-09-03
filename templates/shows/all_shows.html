@@ -1,0 +1,30 @@
+{% extends "shows/base.html" %}
+{% block title %}{{ title }} MyCorn{% endblock %}
+{% block content %}
+<h2>{{ title }} ({{ total_count }})</h2>
+
+<hr>
+
+<!-- Список шоу -->
+{% for show in shows %}
+<div>
+    <h3>{{ show.title }}</h3>
+    <p>Тип: {% if show.type == 'movie' %}Фильм{% else %}Сериал{% endif %}</p>
+    <p>Год: {% if show.release_date %}{{ show.release_date.year }}{% else %}н/д{% endif %}</p>
+    <p>Жанры: 
+        {% for genre in show.genres.all %}
+            {{ genre.name }}{% if not forloop.last %}, {% endif %}
+        {% empty %}
+            нет жанров
+        {% endfor %}
+    </p>
+    {% if show.imdb_rating or show.kinopoisk_rating %}
+    <p>Рейтинги: 
+        {% if show.imdb_rating %}IMDb: {{ show.imdb_rating }}{% endif %}
+        {% if show.kinopoisk_rating %}КП: {{ show.kinopoisk_rating }}{% endif %}
+    </p>
+    {% endif %}
+    <hr>
+</div>
+{% endfor %}
+{% endblock %}

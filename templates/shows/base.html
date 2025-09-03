@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCorn</title>
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <h1>MyCorn</h1>
+    </header>
+    
+    <!-- Навигация -->
+    <nav>
+        <a href="/">Главная</a>
+        <a href="/shows/?type=movie">Фильмы</a>
+        <a href="/shows/?type=series">Сериалы</a>
+        <a href="#">Поиск</a>
+        <a href="#">Мой профиль</a>
+        <a href="/admin/" target="_blank">Админка</a>
+    </nav>
+    
+    <!-- Основное содержимое -->
+    <main>
+        <div>
+            {% block content %}
+            {% endblock %}
+        </div>
+    </main>
+    
+    <!-- Подвал -->
+    <footer>
+        <p>© 2025 MyCorn. Все права защищены.</p>
+    </footer>
+</body>
+</html>
