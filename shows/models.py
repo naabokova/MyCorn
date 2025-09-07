@@ -7,7 +7,7 @@ class Genre(models.Model):  # Модель для жанров фильмов/с
     name = models.CharField(
         max_length=255,   
         unique=True,   # unique=True - названия жанров должны быть уникальными
-        verbose_name="Название жанра"  # verbose_name - человекочитаемое название для админки
+        verbose_name="Название жанра"  # verbose_name - название для админки
     )
     
 
@@ -27,15 +27,24 @@ class Show(models.Model):  # Основная модель для фильмов
     title = models.CharField(max_length=255, verbose_name="Название")
     description = models.TextField(verbose_name="Описание")
     type = models.CharField(max_length=10, choices=TYPE_CHOICES, verbose_name="Тип")  # Изображение (загрузка файлов)
-    poster = models.ImageField(upload_to='posters/', blank=True, null=True, verbose_name="Постер")
+    poster = models.ImageField(upload_to='posters/', blank=True, null=True, verbose_name="Постер", help_text="Загрузите изображение постера")
     release_date = models.DateField(verbose_name="Дата выхода", null=True, blank=True)   # Даты и время
-    duration = models.PositiveIntegerField(help_text="Продолжительность в минутах", verbose_name="Длительность", null=True, blank=True) # Числовые поля
+    STATUS_CHOICES = [
+        ('ongoing', 'Выходит'),
+        ('completed', 'Завершен'),
+        ('upcoming', 'Скоро выйдет'),
+    ]
+    status = models.CharField(max_length=10, choices=STATUS_CHOICES, default='ongoing', verbose_name="Статус")
+    duration = models.PositiveIntegerField(help_text="Продолжительность в минутах", verbose_name="Длительность", null=True, blank=True) 
     imdb_rating = models.FloatField(validators=[MinValueValidator(0.0), MaxValueValidator(10.0)], blank=True, null=True, verbose_name="Рейтинг IMDB")  # Рейтинги с валидацией
     kinopoisk_rating = models.FloatField(validators=[MinValueValidator(0.0), MaxValueValidator(10.0)], blank=True, null=True, verbose_name="Рейтинг Кинопоиск")
     genres = models.ManyToManyField(Genre, related_name='shows', verbose_name="Жанры")  # Связь Many-to-Many с жанрами
     total_seasons = models.PositiveIntegerField(default=1, verbose_name="Всего сезонов")  # Поля для сериалов
     total_episodes = models.PositiveIntegerField(default=1, verbose_name="Всего серий")
-
+    country = models.CharField(max_length=100, verbose_name="Страна", blank=True, default='')
+    total_seasons = models.PositiveIntegerField(default=1, verbose_name="Всего сезонов")
+    trailer_id = models.CharField(max_length=20, blank=True, null=True, verbose_name="ID YouTube трейлера", help_text="ID видео из YouTube (только часть после v=)"
+    )
     def __str__(self):
         year = self.release_date.year if self.release_date else 'н/д'
         return f"{self.title} ({year})"
@@ -52,6 +61,7 @@ class Episode(models.Model):  #Модель для эпизодов сериал
     title = models.CharField(max_length=255, verbose_name="Название серии")
     air_date = models.DateField(verbose_name="Дата выхода серии", null=True, blank=True)
     
+    description = models.TextField(blank=True, default='', verbose_name="Описание серии")
 
     class Meta:   # Уникальная комбинация: сериал + сезон + серия
         unique_together = ('show', 'season_number', 'episode_number')
@@ -103,3 +113,22 @@ class WatchedEpisode(models.Model):  #Отметки о просмотренны
 
     def __str__(self):
         return f"{self.user.username} watched {self.episode}"
+    
+
+class UserRating(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='ratings')
+    show = models.ForeignKey(Show, on_delete=models.CASCADE, related_name='user_ratings')
+    rating = models.PositiveIntegerField(
+        validators=[MinValueValidator(1), MaxValueValidator(10)],
+        verbose_name="Оценка пользователя"
+    )
+    rated_at = models.DateTimeField(auto_now_add=True, verbose_name="Дата оценки")
+
+    class Meta:
+        unique_together = ('user', 'show')  # Одна оценка на пользователя и шоу
+        verbose_name = "Оценка пользователя"
+        verbose_name_plural = "Оценки пользователей"
+
+    def __str__(self):
+        return f"{self.user.username} - {self.show.title}: {self.rating}"
+    

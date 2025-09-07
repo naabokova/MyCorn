@@ -1,0 +1,162 @@
+{% extends "shows/base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="show-detail">
+    <h1 class="show-title">{{ show.title }}</h1>
+    <div class="show-header">
+        {% if show.poster %}
+        <img src="{{ show.poster.url }}" alt="{{ show.title }}" class="show-poster">
+        {% else %}
+        <img src="{% static 'images/no-poster.jpg' %}" alt="Нет постера" class="show-poster">
+        {% endif %}
+
+        <div class="show-info">
+            {% if user.is_authenticated %}
+            <div class="action-buttons">
+                <div class="status-buttons">
+                    <form method="post" action="{% url 'update_status' show.id %}">
+                        {% csrf_token %}
+                        <button type="submit" name="status" value="watching">Смотрю</button>
+                        <button type="submit" name="status" value="stopped">Перестал</button>
+                        <button type="submit" name="status" value="planned">Буду смотреть</button>
+                        <button type="submit" name="status" value="watched">Просмотрено</button>
+                    </form>
+                </div>
+
+                <div class="user-rating-section">
+                    <h3>Моя оценка</h3>
+                    <form method="post" action="{% url 'rate_show' show.id %}">
+                        {% csrf_token %}
+                        <select name="rating" class="rating-select">
+                            <option value="">-- Выберите оценку --</option>
+                            <option value="1" {% if user_rating == 1 %}selected{% endif %}>1</option>
+                            <option value="2" {% if user_rating == 2 %}selected{% endif %}>2</option>
+                            <option value="3" {% if user_rating == 3 %}selected{% endif %}>3</option>
+                            <option value="4" {% if user_rating == 4 %}selected{% endif %}>4</option>
+                            <option value="5" {% if user_rating == 5 %}selected{% endif %}>5</option>
+                            <option value="6" {% if user_rating == 6 %}selected{% endif %}>6</option>
+                            <option value="7" {% if user_rating == 7 %}selected{% endif %}>7</option>
+                            <option value="8" {% if user_rating == 8 %}selected{% endif %}>8</option>
+                            <option value="9" {% if user_rating == 9 %}selected{% endif %}>9</option>
+                            <option value="10" {% if user_rating == 10 %}selected{% endif %}>10</option>
+                        </select>
+                        <button type="submit" class="rate-btn">Оценить</button>
+                    </form>
+                    
+                    {% if user_rating %}
+                    <p class="current-rating">Ваша оценка: <strong>{{ user_rating }}</strong></p>
+                    {% endif %}
+                </div>
+            </div>
+            {% endif %}
+            
+            <!-- Основная информация -->
+            <div class="basic-info">
+                <p><strong>Дата выхода:</strong> 
+                    {% if show.release_date %}{{ show.release_date.year }}{% else %}н/д{% endif %}
+                </p>
+
+                <p><strong>Статус:</strong> 
+                    {{ show.get_status_display }}
+                </p>
+
+                <p><strong>Страна:</strong> 
+                    {{ show.country|default:"н/д" }}
+                </p>
+
+                <p><strong>Жанры:</strong> 
+                    {% for genre in show.genres.all %}
+                        {{ genre.name }}{% if not forloop.last %}, {% endif %}
+                    {% empty %}
+                        нет жанров
+                    {% endfor %}
+                </p>
+                
+                <p><strong>Длительность:</strong> 
+                    {{ show.get_duration_display }}
+                </p>
+                
+                {% if show.type == 'series' %}
+                <p><strong>Сезонов:</strong> {{ show.total_seasons }}</p>
+                <p><strong>Всего серий:</strong> {{ show.total_episodes }}</p>
+                {% endif %}
+
+                {% if show.imdb_rating %}
+                <p><strong>IMDb:</strong> 
+                    {{ show.imdb_rating }}
+                </p>
+                {% endif %}
+                
+                {% if show.kinopoisk_rating %}
+                <p><strong>Кинопоиск:</strong> 
+                    {{ show.kinopoisk_rating }}
+                </p>
+                {% endif %}
+            </div>
+        </div>  <!-- ★★★ Закрываем show-info ★★★ -->
+    </div>  <!-- ★★★ Закрываем show-header ★★★ -->
+
+    <!-- Описание -->
+    <div class="description">
+        <h3>Описание</h3>
+        <p>{{ show.description|linebreaks }}</p>
+    </div>
+
+    <!-- Трейлер -->
+    {% if show.trailer_id %}
+    <section id="trailer">
+        <h3>Трейлер</h3>
+        <div class="video-container">
+            <iframe 
+                width="100%" 
+                height="415" 
+                src="https://www.youtube.com/embed/{{ show.trailer_id }}" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+    {% endif %}
+    
+    <!-- Список серий-->
+    {% if show.type == 'series' %}
+    <div class="episodes-list">
+        <h3>Даты выхода и названия серий</h3>
+        
+        {% for episode in episodes %}
+        <div class="episode {% if episode.id in watched_episodes %}watched{% endif %}">
+            <h4>Сезон {{ episode.season_number }}, Серия {{ episode.episode_number }}: {{ episode.title }}</h4>
+            
+            <div class="episode-info">
+                <p><strong>Дата выхода:</strong> 
+                    {% if episode.air_date %}{{ episode.air_date }}{% else %}н/д{% endif %}
+                </p>
+                
+                {% if episode.description %}
+                <p class="episode-description">{{ episode.description }}</p>
+                {% endif %}
+            </div>
+            
+            {% if user.is_authenticated %}
+            <div class="episode-actions">
+                {% if episode.id in watched_episodes %}
+                <button class="watched-btn active" data-episode-id="{{ episode.id }}">
+                    Просмотрено
+                </button>
+                {% else %}
+                <button class="watched-btn" data-episode-id="{{ episode.id }}">
+                    Просмотрено
+                </button>
+                {% endif %}
+            </div>
+            {% endif %}
+        </div>
+        {% empty %}
+        <p>Информация о сериях пока не добавлена.</p>
+        {% endfor %}
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

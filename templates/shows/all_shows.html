@@ -7,8 +7,15 @@
 
 <!-- Список шоу -->
 {% for show in shows %}
+<div class="show-item">
+    <a href="{% url 'show_detail' show.id %}">
+        {% if show.poster %}
+        <img src="{{ show.poster.url }}" alt="{{ show.title }}" width="100">
+        {% endif %}
+        <h3>{{ show.title }}</h3>
+    </a>
 <div>
-    <h3>{{ show.title }}</h3>
+    
     <p>Тип: {% if show.type == 'movie' %}Фильм{% else %}Сериал{% endif %}</p>
     <p>Год: {% if show.release_date %}{{ show.release_date.year }}{% else %}н/д{% endif %}</p>
     <p>Жанры: 
