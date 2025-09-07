@@ -1,0 +1,2369 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-08-31T16:13:16.180Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Драма",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-08-31T16:13:30.308Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Комедия",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-08-31T16:13:37.186Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Романтика",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-08-31T16:13:41.236Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Криминал",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-08-31T16:13:45.571Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "Боевик",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-08-31T16:13:50.898Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "Семейный",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-08-31T16:13:54.923Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "Приключение",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-08-31T16:14:01.911Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Аниме",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-08-31T16:14:15.514Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "Детектив",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-08-31T16:14:21.268Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "10",
+    "object_repr": "Исторический",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-08-31T16:14:31.996Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "11",
+    "object_repr": "Триллер",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-08-31T16:14:51.040Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "12",
+    "object_repr": "Фэнтази",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-08-31T16:19:10.106Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "13",
+    "object_repr": "Спортивный",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-08-31T16:20:11.167Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Тед Лассо/Ted Lasso (2020)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-08-31T16:26:25.355Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Поднятие уровня в одиночку/Solo Leveling (2024)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-08-31T16:28:07.260Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "День шакала/The Day of the Jackal (2024)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-08-31T16:34:09.380Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "14",
+    "object_repr": "Военный",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-08-31T16:34:26.464Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Переводчик/Guy Ritchie's The Covenant (2023)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-08-31T16:38:06.892Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "15",
+    "object_repr": "Фантастика",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-08-31T16:38:14.490Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "Фантастическая Четвёрка/Fantastic Four (2005)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-08-31T16:39:35.414Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "Шерлок",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2025-08-31T16:42:29.505Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "Шерлок",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\", \"Date joined\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2025-08-31T17:35:47.959Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Тед Лассо/Ted Lasso - S1E1 Pilot",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2025-08-31T17:36:08.786Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Тед Лассо/Ted Lasso - S1E2 Biscuits",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2025-08-31T17:36:27.634Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Тед Лассо/Ted Lasso - S1E3 Trent Crimm: The Independent",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2025-08-31T17:36:46.826Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Тед Лассо/Ted Lasso - S1E4 For the Children",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2025-08-31T17:37:07.212Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Тед Лассо/Ted Lasso - S1E5 Tan Lines",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2025-08-31T17:37:42.171Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Тед Лассо/Ted Lasso - S1E6 Two Aces",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2025-08-31T17:38:00.712Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Тед Лассо/Ted Lasso - S1E7 Make Rebecca Great Again",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2025-08-31T17:38:20.919Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Тед Лассо/Ted Lasso - S1E8 The Diamond Dogs",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2025-08-31T17:38:40.367Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Тед Лассо/Ted Lasso - S1E9 All Apologies",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2025-08-31T17:38:56.551Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "Тед Лассо/Ted Lasso - S1E10 The Hope That Kills You",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2025-08-31T17:39:10.827Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "Тед Лассо/Ted Lasso - S2E1 Goodbye Earl",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2025-08-31T17:39:25.980Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "Тед Лассо/Ted Lasso - S2E2 Lavender",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2025-08-31T17:39:42.978Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "13",
+    "object_repr": "Тед Лассо/Ted Lasso - S2E3 Do the Right-est Thing",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2025-08-31T17:40:04.322Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "14",
+    "object_repr": "Тед Лассо/Ted Lasso - S2E4 Carol of the Bells",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2025-08-31T17:40:48.860Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "15",
+    "object_repr": "Тед Лассо/Ted Lasso - S2E5 Rainbow",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2025-08-31T17:41:15.600Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "16",
+    "object_repr": "Тед Лассо/Ted Lasso - S2E6 The Signal",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2025-08-31T17:42:13.661Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "17",
+    "object_repr": "Тед Лассо/Ted Lasso - S2E7 Headspace",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2025-08-31T17:42:37.669Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "18",
+    "object_repr": "Тед Лассо/Ted Lasso - S2E8 Man City",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2025-08-31T17:42:51.583Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "19",
+    "object_repr": "Тед Лассо/Ted Lasso - S2E9 Beard After Hours",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2025-08-31T17:43:10.886Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "20",
+    "object_repr": "Тед Лассо/Ted Lasso - S2E10 No Weddings and a Funeral",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2025-08-31T17:43:23.952Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "21",
+    "object_repr": "Тед Лассо/Ted Lasso - S2E11 Midnight Train to Royston",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2025-08-31T17:43:48.710Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "22",
+    "object_repr": "Тед Лассо/Ted Lasso - S2E12 Inverting the Pyramid of Success",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2025-08-31T17:44:08.586Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "23",
+    "object_repr": "Тед Лассо/Ted Lasso - S3E1 Smells Like Mean Spirit",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2025-08-31T17:44:22.485Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "24",
+    "object_repr": "Тед Лассо/Ted Lasso - S3E2 (I Don't Want to Go to) Chelsea",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2025-08-31T17:44:40.828Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "25",
+    "object_repr": "Тед Лассо/Ted Lasso - S3E3 4-5-1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2025-08-31T17:45:00.925Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "26",
+    "object_repr": "Тед Лассо/Ted Lasso - S3E4 Big Week",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2025-08-31T17:45:17.918Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "27",
+    "object_repr": "Тед Лассо/Ted Lasso - S3E5 Signs",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2025-08-31T17:45:33.137Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "28",
+    "object_repr": "Тед Лассо/Ted Lasso - S3E6 Sunflowers",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2025-08-31T17:45:55.261Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "29",
+    "object_repr": "Тед Лассо/Ted Lasso - S3E7 The Strings That Bind Us",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2025-08-31T17:46:09.422Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "30",
+    "object_repr": "Тед Лассо/Ted Lasso - S3E8 We'll Never Have Paris",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2025-08-31T17:46:29.327Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "31",
+    "object_repr": "Тед Лассо/Ted Lasso - S3E9 La Locker Room Aux Folles",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2025-08-31T17:46:47.364Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "32",
+    "object_repr": "Тед Лассо/Ted Lasso - S3E10 International Break",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2025-08-31T17:47:09.078Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "33",
+    "object_repr": "Тед Лассо/Ted Lasso - S3E11 Mom City",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2025-08-31T17:47:30.095Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "34",
+    "object_repr": "Тед Лассо/Ted Lasso - S3E12 So Long, Farewell",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2025-08-31T17:49:26.567Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "35",
+    "object_repr": "Поднятие уровня в одиночку/Solo Leveling - S1E1 I'm Used to It",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2025-08-31T17:49:47.567Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "36",
+    "object_repr": "Поднятие уровня в одиночку/Solo Leveling - S1E2 If I Had One More Chance",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2025-08-31T17:50:04.509Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "37",
+    "object_repr": "Поднятие уровня в одиночку/Solo Leveling - S1E3 It's Like a Game",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2025-08-31T17:50:21.656Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "38",
+    "object_repr": "Поднятие уровня в одиночку/Solo Leveling - S1E4 I've Gotta Get Stronger",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2025-08-31T17:50:34.141Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "39",
+    "object_repr": "Поднятие уровня в одиночку/Solo Leveling - S1E5 A Pretty Good Deal",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2025-08-31T17:50:46.804Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "40",
+    "object_repr": "Поднятие уровня в одиночку/Solo Leveling - S1E6 The Real Hunt Begins",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2025-08-31T17:51:06.823Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "41",
+    "object_repr": "Поднятие уровня в одиночку/Solo Leveling - S1E7 Let's See How Far I Can Go",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2025-08-31T17:51:28.050Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "42",
+    "object_repr": "Поднятие уровня в одиночку/Solo Leveling - S1E8 This Is Frustrating",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2025-08-31T17:51:48.065Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "43",
+    "object_repr": "Поднятие уровня в одиночку/Solo Leveling - S1E9 You've Been Hiding Your Skills",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2025-08-31T17:52:40.239Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "44",
+    "object_repr": "Поднятие уровня в одиночку/Solo Leveling - S1E10 What Is This, a Picnic?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2025-08-31T17:52:59.844Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "45",
+    "object_repr": "Поднятие уровня в одиночку/Solo Leveling - S1E11 A Knight Who Defends an Empty Throne",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2025-08-31T17:53:14.326Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "46",
+    "object_repr": "Поднятие уровня в одиночку/Solo Leveling - S1E12 Arise",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2025-08-31T17:53:37.769Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "47",
+    "object_repr": "Поднятие уровня в одиночку/Solo Leveling - S2E1 You aren't E-rank, are You",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2025-08-31T17:53:57.481Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "48",
+    "object_repr": "Поднятие уровня в одиночку/Solo Leveling - S2E2 I Suppose You aren't Aware",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2025-08-31T17:54:12.251Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "49",
+    "object_repr": "Поднятие уровня в одиночку/Solo Leveling - S2E3 Still a Long Way to Go",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2025-08-31T17:54:34.939Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "50",
+    "object_repr": "Поднятие уровня в одиночку/Solo Leveling - S2E4 I Need to Stop Faking",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2025-08-31T17:55:07.919Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "51",
+    "object_repr": "Поднятие уровня в одиночку/Solo Leveling - S2E5 This is What We're Trained to Do",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2025-08-31T17:55:27.298Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "52",
+    "object_repr": "Поднятие уровня в одиночку/Solo Leveling - S2E6 This is What We're Trained to Do",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2025-08-31T17:56:31.568Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "52",
+    "object_repr": "Поднятие уровня в одиночку/Solo Leveling - S2E6 Don't Look Down on My Guys",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0441\\u0435\\u0440\\u0438\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2025-08-31T17:56:49.095Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "53",
+    "object_repr": "Поднятие уровня в одиночку/Solo Leveling - S2E7 The 10th S-rank Hunter",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2025-08-31T17:57:11.622Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "54",
+    "object_repr": "Поднятие уровня в одиночку/Solo Leveling - S2E8 Looking Up Was Tiring Me Out",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2025-08-31T17:57:27.886Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "55",
+    "object_repr": "Поднятие уровня в одиночку/Solo Leveling - S2E9 It was All Worth It",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2025-08-31T17:57:43.975Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "56",
+    "object_repr": "Поднятие уровня в одиночку/Solo Leveling - S2E10 We Need a Hero",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2025-08-31T17:58:01.092Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "57",
+    "object_repr": "Поднятие уровня в одиночку/Solo Leveling - S2E11 It's Going to Get Even More Intense",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2025-08-31T17:58:20.771Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "58",
+    "object_repr": "Поднятие уровня в одиночку/Solo Leveling - S2E12 Are You the King of Humans",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2025-08-31T17:58:39.544Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "59",
+    "object_repr": "Поднятие уровня в одиночку/Solo Leveling - S2E13 On to the Next Target",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2025-08-31T17:59:16.268Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "60",
+    "object_repr": "День шакала/The Day of the Jackal - S1E1 Episode 1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2025-08-31T17:59:30.695Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "61",
+    "object_repr": "День шакала/The Day of the Jackal - S1E2 Episode 2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2025-08-31T17:59:55.844Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "62",
+    "object_repr": "День шакала/The Day of the Jackal - S1E3 Episode 3",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2025-08-31T18:00:10.658Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "63",
+    "object_repr": "День шакала/The Day of the Jackal - S1E4 Episode 4",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2025-08-31T18:00:21.092Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "64",
+    "object_repr": "День шакала/The Day of the Jackal - S1E5 Episode 5",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2025-08-31T18:00:34.891Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "65",
+    "object_repr": "День шакала/The Day of the Jackal - S1E6 Episode 6",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2025-08-31T18:00:49.049Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "66",
+    "object_repr": "День шакала/The Day of the Jackal - S1E7 Episode 7",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2025-08-31T18:01:48.588Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "67",
+    "object_repr": "День шакала/The Day of the Jackal - S1E8 Episode 8",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2025-08-31T18:02:05.590Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "68",
+    "object_repr": "День шакала/The Day of the Jackal - S1E9 Episode 9",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2025-08-31T18:02:21.102Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "69",
+    "object_repr": "День шакала/The Day of the Jackal - S1E10 Episode 10",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2025-08-31T18:02:47.060Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "65",
+    "object_repr": "День шакала/The Day of the Jackal - S1E6 Episode 6",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0414\\u0430\\u0442\\u0430 \\u0432\\u044b\\u0445\\u043e\\u0434\\u0430 \\u0441\\u0435\\u0440\\u0438\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2025-08-31T18:03:01.084Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "66",
+    "object_repr": "День шакала/The Day of the Jackal - S1E7 Episode 7",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0414\\u0430\\u0442\\u0430 \\u0432\\u044b\\u0445\\u043e\\u0434\\u0430 \\u0441\\u0435\\u0440\\u0438\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2025-08-31T18:14:27.036Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "Фантастическая Четвёрка/Fantastic Four (2005)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0441\\u0442\\u0435\\u0440\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2025-08-31T18:14:35.799Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Переводчик/Guy Ritchie's The Covenant (2023)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0441\\u0442\\u0435\\u0440\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2025-08-31T18:14:40.771Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "День шакала/The Day of the Jackal (2024)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0441\\u0442\\u0435\\u0440\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2025-08-31T18:14:54.992Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Поднятие уровня в одиночку/Solo Leveling (2024)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0441\\u0442\\u0435\\u0440\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2025-08-31T18:14:59.483Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Тед Лассо/Ted Lasso (2020)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0441\\u0442\\u0435\\u0440\"]}}]"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$hJRRIhBe2O4fCUJcrJax4M$m5A8PuwZFGtWRUZx6kNXr5+9Ct0BLoVhGe+JqR1IoQA=",
+    "last_login": "2025-08-31T15:42:31.093Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-08-31T15:41:55.810Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$kfn9S10rh2d6Q7JqxsgowG$h+Y4/mfrRulh+jaMV1R9rVHc+MWhQaBqYqdJC3ZjJqg=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Шерлок",
+    "first_name": "Шерлок",
+    "last_name": "Холмс",
+    "email": "sherlock.holmes@easy.me",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-20T14:39:34Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "a9356npm6q6t97gz1yhbn9n5z6jduw73",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlnexPECJT1nsPZj4wBypDipEHeHSCmgfTPzXibSupS4tjTHUc3ZgDn8bkzySHUDeqd6m6xMdZlHtptid9rsddL0vOzu30GhVr71EYQAKXPqvQCqYiL2kiETeA2KLvBAIODAIzsXOgoDdrnXE5KQN-8PBwQ4bA:1uskCN:eQmJvitRkVm3cezkh95yrBH232dotVQoqsf887kwwjw",
+    "expire_date": "2025-09-14T15:42:31.110Z"
+  }
+},
+{
+  "model": "shows.genre",
+  "pk": 1,
+  "fields": {
+    "name": "Драма"
+  }
+},
+{
+  "model": "shows.genre",
+  "pk": 2,
+  "fields": {
+    "name": "Комедия"
+  }
+},
+{
+  "model": "shows.genre",
+  "pk": 3,
+  "fields": {
+    "name": "Романтика"
+  }
+},
+{
+  "model": "shows.genre",
+  "pk": 4,
+  "fields": {
+    "name": "Криминал"
+  }
+},
+{
+  "model": "shows.genre",
+  "pk": 5,
+  "fields": {
+    "name": "Боевик"
+  }
+},
+{
+  "model": "shows.genre",
+  "pk": 6,
+  "fields": {
+    "name": "Семейный"
+  }
+},
+{
+  "model": "shows.genre",
+  "pk": 7,
+  "fields": {
+    "name": "Приключение"
+  }
+},
+{
+  "model": "shows.genre",
+  "pk": 8,
+  "fields": {
+    "name": "Аниме"
+  }
+},
+{
+  "model": "shows.genre",
+  "pk": 9,
+  "fields": {
+    "name": "Детектив"
+  }
+},
+{
+  "model": "shows.genre",
+  "pk": 10,
+  "fields": {
+    "name": "Исторический"
+  }
+},
+{
+  "model": "shows.genre",
+  "pk": 11,
+  "fields": {
+    "name": "Триллер"
+  }
+},
+{
+  "model": "shows.genre",
+  "pk": 12,
+  "fields": {
+    "name": "Фэнтази"
+  }
+},
+{
+  "model": "shows.genre",
+  "pk": 13,
+  "fields": {
+    "name": "Спортивный"
+  }
+},
+{
+  "model": "shows.genre",
+  "pk": 14,
+  "fields": {
+    "name": "Военный"
+  }
+},
+{
+  "model": "shows.genre",
+  "pk": 15,
+  "fields": {
+    "name": "Фантастика"
+  }
+},
+{
+  "model": "shows.show",
+  "pk": 1,
+  "fields": {
+    "title": "Тед Лассо/Ted Lasso",
+    "description": "Тед Лассо — тренер по американскому футболу, которого нанимают в качество менеджера английского футбольного клуба. Отсутствие опыта и знаний он компенсирует оптимизмом и харизмой, перед которыми невозможно устоять.",
+    "type": "series",
+    "poster": "",
+    "release_date": "2020-08-14",
+    "duration": 1419,
+    "imdb_rating": 9.0,
+    "kinopoisk_rating": 8.0,
+    "total_seasons": 3,
+    "total_episodes": 34,
+    "genres": [
+      1,
+      2,
+      13
+    ]
+  }
+},
+{
+  "model": "shows.show",
+  "pk": 2,
+  "fields": {
+    "title": "Поднятие уровня в одиночку/Solo Leveling",
+    "description": "Мир, в котором более десяти лет назад появился проход «Врата» соединяющий другое измерение с настоящим миром. После появления прохода пробудились люди со сверхъестественными способностями, известные как «охотники». Они зарабатывали большие награды, побеждая монстров, скрывающихся в подземельях внутри «Врат». Но везло далеко не всем. Сон Джину — «охотник» класса Е. Таких считают самыми слабыми и на них смотрят свысока. У них нет ни денег, ни способностей, ни какой-либо другой работы. Но молодой человек не теряет надежды однажды изменить жизнь к лучшему и разбогатеть. Однажды Сон сталкивается с двойным подземельем высокого ранга, спрятанным в пещере низкого ранга, и перед его глазами появляется таинственное окно квеста, в результате которого он получает смертельное ранение. В результате чего у него открылась странная способность: виртуальный интерфейс, позволяющий парню становиться все сильнее и сильнее. С этого момента его будущее кардинально меняется: он обретает «способность повышать уровень только в одиночку» выполняя ежедневные задания и побеждая врагов. которых не видят другие.",
+    "type": "series",
+    "poster": "",
+    "release_date": "2024-01-06",
+    "duration": 701,
+    "imdb_rating": 9.0,
+    "kinopoisk_rating": 8.0,
+    "total_seasons": 2,
+    "total_episodes": 25,
+    "genres": [
+      5,
+      8,
+      12
+    ]
+  }
+},
+{
+  "model": "shows.show",
+  "pk": 3,
+  "fields": {
+    "title": "День шакала/The Day of the Jackal",
+    "description": "Экранизация одноименной книги Фредерика Форсайта.\r\nНа след наемного убийцы выходит офицер британской разведки. Шакал решает начать игру в «кошки-мышки» по всей Европе, оставляя за собой кровавые следы.",
+    "type": "series",
+    "poster": "",
+    "release_date": "2024-11-07",
+    "duration": 511,
+    "imdb_rating": 8.0,
+    "kinopoisk_rating": 8.0,
+    "total_seasons": 1,
+    "total_episodes": 10,
+    "genres": [
+      11
+    ]
+  }
+},
+{
+  "model": "shows.show",
+  "pk": 4,
+  "fields": {
+    "title": "Переводчик/Guy Ritchie's The Covenant",
+    "description": "Джон Кинли не помнит, как выжил, попав в окружение врага в Афганистане, но понимает, что обязан жизнью местному переводчику по имени Ахмед. Именно ему удалось отбить раненого Кинли и на себе вытащить через опасную территорию. Теперь чувство долга не даёт Джону покоя и он решает рискнуть всем, чтобы вернуться за Ахмедом и его семьёй. На обоих объявлена охота, действовать приходится в одиночку, но он понимает, что не может бросить своего товарища в беде...",
+    "type": "movie",
+    "poster": "",
+    "release_date": "2023-04-19",
+    "duration": 123,
+    "imdb_rating": 8.0,
+    "kinopoisk_rating": 8.0,
+    "total_seasons": 1,
+    "total_episodes": 1,
+    "genres": [
+      5,
+      11,
+      14
+    ]
+  }
+},
+{
+  "model": "shows.show",
+  "pk": 5,
+  "fields": {
+    "title": "Фантастическая Четвёрка/Fantastic Four",
+    "description": "Четыре астронавта в далёком космосе попали под действие неизвестных лучей и приобрели каждый свою отдельную суперспособность. После возвращения на Землю, четвёрка начинает активно мешать врагам цивилизации, которые усиленно портят жизнь всего прогрессивного человечества.",
+    "type": "movie",
+    "poster": "",
+    "release_date": "2005-06-29",
+    "duration": 106,
+    "imdb_rating": 6.0,
+    "kinopoisk_rating": 7.0,
+    "total_seasons": 1,
+    "total_episodes": 1,
+    "genres": [
+      5,
+      12,
+      15
+    ]
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 1,
+  "fields": {
+    "show": 1,
+    "season_number": 1,
+    "episode_number": 1,
+    "title": "Pilot",
+    "air_date": "2020-08-14",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 2,
+  "fields": {
+    "show": 1,
+    "season_number": 1,
+    "episode_number": 2,
+    "title": "Biscuits",
+    "air_date": "2020-08-14",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 3,
+  "fields": {
+    "show": 1,
+    "season_number": 1,
+    "episode_number": 3,
+    "title": "Trent Crimm: The Independent",
+    "air_date": "2020-08-14",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 4,
+  "fields": {
+    "show": 1,
+    "season_number": 1,
+    "episode_number": 4,
+    "title": "For the Children",
+    "air_date": "2020-08-21",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 5,
+  "fields": {
+    "show": 1,
+    "season_number": 1,
+    "episode_number": 5,
+    "title": "Tan Lines",
+    "air_date": "2020-08-28",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 6,
+  "fields": {
+    "show": 1,
+    "season_number": 1,
+    "episode_number": 6,
+    "title": "Two Aces",
+    "air_date": "2020-09-04",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 7,
+  "fields": {
+    "show": 1,
+    "season_number": 1,
+    "episode_number": 7,
+    "title": "Make Rebecca Great Again",
+    "air_date": "2020-09-11",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 8,
+  "fields": {
+    "show": 1,
+    "season_number": 1,
+    "episode_number": 8,
+    "title": "The Diamond Dogs",
+    "air_date": "2020-09-18",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 9,
+  "fields": {
+    "show": 1,
+    "season_number": 1,
+    "episode_number": 9,
+    "title": "All Apologies",
+    "air_date": "2020-09-25",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 10,
+  "fields": {
+    "show": 1,
+    "season_number": 1,
+    "episode_number": 10,
+    "title": "The Hope That Kills You",
+    "air_date": "2020-10-02",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 11,
+  "fields": {
+    "show": 1,
+    "season_number": 2,
+    "episode_number": 1,
+    "title": "Goodbye Earl",
+    "air_date": "2021-07-23",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 12,
+  "fields": {
+    "show": 1,
+    "season_number": 2,
+    "episode_number": 2,
+    "title": "Lavender",
+    "air_date": "2021-07-30",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 13,
+  "fields": {
+    "show": 1,
+    "season_number": 2,
+    "episode_number": 3,
+    "title": "Do the Right-est Thing",
+    "air_date": "2021-08-06",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 14,
+  "fields": {
+    "show": 1,
+    "season_number": 2,
+    "episode_number": 4,
+    "title": "Carol of the Bells",
+    "air_date": "2021-08-13",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 15,
+  "fields": {
+    "show": 1,
+    "season_number": 2,
+    "episode_number": 5,
+    "title": "Rainbow",
+    "air_date": "2021-08-20",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 16,
+  "fields": {
+    "show": 1,
+    "season_number": 2,
+    "episode_number": 6,
+    "title": "The Signal",
+    "air_date": "2021-08-27",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 17,
+  "fields": {
+    "show": 1,
+    "season_number": 2,
+    "episode_number": 7,
+    "title": "Headspace",
+    "air_date": "2021-09-03",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 18,
+  "fields": {
+    "show": 1,
+    "season_number": 2,
+    "episode_number": 8,
+    "title": "Man City",
+    "air_date": "2021-09-10",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 19,
+  "fields": {
+    "show": 1,
+    "season_number": 2,
+    "episode_number": 9,
+    "title": "Beard After Hours",
+    "air_date": "2021-09-17",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 20,
+  "fields": {
+    "show": 1,
+    "season_number": 2,
+    "episode_number": 10,
+    "title": "No Weddings and a Funeral",
+    "air_date": "2021-09-24",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 21,
+  "fields": {
+    "show": 1,
+    "season_number": 2,
+    "episode_number": 11,
+    "title": "Midnight Train to Royston",
+    "air_date": "2021-10-01",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 22,
+  "fields": {
+    "show": 1,
+    "season_number": 2,
+    "episode_number": 12,
+    "title": "Inverting the Pyramid of Success",
+    "air_date": "2021-10-08",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 23,
+  "fields": {
+    "show": 1,
+    "season_number": 3,
+    "episode_number": 1,
+    "title": "Smells Like Mean Spirit",
+    "air_date": "2023-03-15",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 24,
+  "fields": {
+    "show": 1,
+    "season_number": 3,
+    "episode_number": 2,
+    "title": "(I Don't Want to Go to) Chelsea",
+    "air_date": "2023-03-22",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 25,
+  "fields": {
+    "show": 1,
+    "season_number": 3,
+    "episode_number": 3,
+    "title": "4-5-1",
+    "air_date": "2023-03-29",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 26,
+  "fields": {
+    "show": 1,
+    "season_number": 3,
+    "episode_number": 4,
+    "title": "Big Week",
+    "air_date": "2023-04-05",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 27,
+  "fields": {
+    "show": 1,
+    "season_number": 3,
+    "episode_number": 5,
+    "title": "Signs",
+    "air_date": "2023-04-12",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 28,
+  "fields": {
+    "show": 1,
+    "season_number": 3,
+    "episode_number": 6,
+    "title": "Sunflowers",
+    "air_date": "2023-04-19",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 29,
+  "fields": {
+    "show": 1,
+    "season_number": 3,
+    "episode_number": 7,
+    "title": "The Strings That Bind Us",
+    "air_date": "2023-04-26",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 30,
+  "fields": {
+    "show": 1,
+    "season_number": 3,
+    "episode_number": 8,
+    "title": "We'll Never Have Paris",
+    "air_date": "2023-05-03",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 31,
+  "fields": {
+    "show": 1,
+    "season_number": 3,
+    "episode_number": 9,
+    "title": "La Locker Room Aux Folles",
+    "air_date": "2023-05-10",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 32,
+  "fields": {
+    "show": 1,
+    "season_number": 3,
+    "episode_number": 10,
+    "title": "International Break",
+    "air_date": "2023-05-17",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 33,
+  "fields": {
+    "show": 1,
+    "season_number": 3,
+    "episode_number": 11,
+    "title": "Mom City",
+    "air_date": "2023-05-24",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 34,
+  "fields": {
+    "show": 1,
+    "season_number": 3,
+    "episode_number": 12,
+    "title": "So Long, Farewell",
+    "air_date": "2023-05-31",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 35,
+  "fields": {
+    "show": 2,
+    "season_number": 1,
+    "episode_number": 1,
+    "title": "I'm Used to It",
+    "air_date": "2024-01-06",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 36,
+  "fields": {
+    "show": 2,
+    "season_number": 1,
+    "episode_number": 2,
+    "title": "If I Had One More Chance",
+    "air_date": "2024-01-13",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 37,
+  "fields": {
+    "show": 2,
+    "season_number": 1,
+    "episode_number": 3,
+    "title": "It's Like a Game",
+    "air_date": "2024-01-20",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 38,
+  "fields": {
+    "show": 2,
+    "season_number": 1,
+    "episode_number": 4,
+    "title": "I've Gotta Get Stronger",
+    "air_date": "2024-01-27",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 39,
+  "fields": {
+    "show": 2,
+    "season_number": 1,
+    "episode_number": 5,
+    "title": "A Pretty Good Deal",
+    "air_date": "2024-02-03",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 40,
+  "fields": {
+    "show": 2,
+    "season_number": 1,
+    "episode_number": 6,
+    "title": "The Real Hunt Begins",
+    "air_date": "2024-02-10",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 41,
+  "fields": {
+    "show": 2,
+    "season_number": 1,
+    "episode_number": 7,
+    "title": "Let's See How Far I Can Go",
+    "air_date": "2024-02-17",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 42,
+  "fields": {
+    "show": 2,
+    "season_number": 1,
+    "episode_number": 8,
+    "title": "This Is Frustrating",
+    "air_date": "2024-03-02",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 43,
+  "fields": {
+    "show": 2,
+    "season_number": 1,
+    "episode_number": 9,
+    "title": "You've Been Hiding Your Skills",
+    "air_date": "2024-03-09",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 44,
+  "fields": {
+    "show": 2,
+    "season_number": 1,
+    "episode_number": 10,
+    "title": "What Is This, a Picnic?",
+    "air_date": "2024-03-16",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 45,
+  "fields": {
+    "show": 2,
+    "season_number": 1,
+    "episode_number": 11,
+    "title": "A Knight Who Defends an Empty Throne",
+    "air_date": "2024-03-23",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 46,
+  "fields": {
+    "show": 2,
+    "season_number": 1,
+    "episode_number": 12,
+    "title": "Arise",
+    "air_date": "2024-03-30",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 47,
+  "fields": {
+    "show": 2,
+    "season_number": 2,
+    "episode_number": 1,
+    "title": "You aren't E-rank, are You",
+    "air_date": "2025-01-04",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 48,
+  "fields": {
+    "show": 2,
+    "season_number": 2,
+    "episode_number": 2,
+    "title": "I Suppose You aren't Aware",
+    "air_date": "2025-01-11",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 49,
+  "fields": {
+    "show": 2,
+    "season_number": 2,
+    "episode_number": 3,
+    "title": "Still a Long Way to Go",
+    "air_date": "2025-01-18",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 50,
+  "fields": {
+    "show": 2,
+    "season_number": 2,
+    "episode_number": 4,
+    "title": "I Need to Stop Faking",
+    "air_date": "2025-01-25",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 51,
+  "fields": {
+    "show": 2,
+    "season_number": 2,
+    "episode_number": 5,
+    "title": "This is What We're Trained to Do",
+    "air_date": "2025-02-01",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 52,
+  "fields": {
+    "show": 2,
+    "season_number": 2,
+    "episode_number": 6,
+    "title": "Don't Look Down on My Guys",
+    "air_date": "2025-02-01",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 53,
+  "fields": {
+    "show": 2,
+    "season_number": 2,
+    "episode_number": 7,
+    "title": "The 10th S-rank Hunter",
+    "air_date": "2025-02-15",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 54,
+  "fields": {
+    "show": 2,
+    "season_number": 2,
+    "episode_number": 8,
+    "title": "Looking Up Was Tiring Me Out",
+    "air_date": "2025-02-22",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 55,
+  "fields": {
+    "show": 2,
+    "season_number": 2,
+    "episode_number": 9,
+    "title": "It was All Worth It",
+    "air_date": "2025-03-01",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 56,
+  "fields": {
+    "show": 2,
+    "season_number": 2,
+    "episode_number": 10,
+    "title": "We Need a Hero",
+    "air_date": "2025-03-08",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 57,
+  "fields": {
+    "show": 2,
+    "season_number": 2,
+    "episode_number": 11,
+    "title": "It's Going to Get Even More Intense",
+    "air_date": "2025-03-15",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 58,
+  "fields": {
+    "show": 2,
+    "season_number": 2,
+    "episode_number": 12,
+    "title": "Are You the King of Humans",
+    "air_date": "2025-03-22",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 59,
+  "fields": {
+    "show": 2,
+    "season_number": 2,
+    "episode_number": 13,
+    "title": "On to the Next Target",
+    "air_date": "2025-03-29",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 60,
+  "fields": {
+    "show": 3,
+    "season_number": 1,
+    "episode_number": 1,
+    "title": "Episode 1",
+    "air_date": "2024-11-07",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 61,
+  "fields": {
+    "show": 3,
+    "season_number": 1,
+    "episode_number": 2,
+    "title": "Episode 2",
+    "air_date": "2024-11-07",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 62,
+  "fields": {
+    "show": 3,
+    "season_number": 1,
+    "episode_number": 3,
+    "title": "Episode 3",
+    "air_date": "2024-11-07",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 63,
+  "fields": {
+    "show": 3,
+    "season_number": 1,
+    "episode_number": 4,
+    "title": "Episode 4",
+    "air_date": "2024-11-07",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 64,
+  "fields": {
+    "show": 3,
+    "season_number": 1,
+    "episode_number": 5,
+    "title": "Episode 5",
+    "air_date": "2024-11-07",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 65,
+  "fields": {
+    "show": 3,
+    "season_number": 1,
+    "episode_number": 6,
+    "title": "Episode 6",
+    "air_date": "2024-11-14",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 66,
+  "fields": {
+    "show": 3,
+    "season_number": 1,
+    "episode_number": 7,
+    "title": "Episode 7",
+    "air_date": "2024-11-21",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 67,
+  "fields": {
+    "show": 3,
+    "season_number": 1,
+    "episode_number": 8,
+    "title": "Episode 8",
+    "air_date": "2024-11-28",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 68,
+  "fields": {
+    "show": 3,
+    "season_number": 1,
+    "episode_number": 9,
+    "title": "Episode 9",
+    "air_date": "2024-12-05",
+    "description": ""
+  }
+},
+{
+  "model": "shows.episode",
+  "pk": 69,
+  "fields": {
+    "show": 3,
+    "season_number": 1,
+    "episode_number": 10,
+    "title": "Episode 10",
+    "air_date": "2024-12-12",
+    "description": ""
+  }
+}
+]
